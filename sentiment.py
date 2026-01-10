@@ -19,7 +19,7 @@ This app uses **TextBlob** to perform Natural Language Processing (NLP) on CSV d
 st.sidebar.markdown("---")
 
 # 2. Sidebar - Upload or Demo
-st.sidebar.header("Step 1: Get Data")
+st.sidebar.header("Get Data")
 uploaded_file = st.sidebar.file_uploader("Upload CSV/TSV", type=["csv", "tsv"])
 use_demo = st.sidebar.checkbox("Use Sample Testing Data")
 
